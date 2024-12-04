@@ -76,3 +76,21 @@ h2{
     box-shadow: 0 0 40px 0 var(--Neon-Green);
     transition: .2s ease-in;
 }
+
+
+@media (max-width:900px) {
+    .dividerMobile{
+        display: block;
+        margin-bottom: 60px;
+    }
+
+    .dividerDesktop{
+        display: none;
+    }
+}
+
+@media (max-width:375px) {
+    .card{
+        width: 90%;
+    }
+}
